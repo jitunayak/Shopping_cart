@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shopping Cart</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">Three</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+</resources>

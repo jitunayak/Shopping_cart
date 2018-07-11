@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+    android:title="profile"
+    android:id="@+id/profile"/>
+    <item android:title="categories">
+        <menu>
+        <item
+            android:title="Men"
+            android:id="@+id/men"/>
+            <item
+                android:title="Women"
+                android:id="@+id/women"/>
+            <item
+                android:title="Books"
+                android:id="@+id/nooks"/>
+        </menu>
+    </item>
+    <item android:title="return and order">
+<menu>
+    <item
+        android:title="orders"
+        android:id="@+id/orders"/>
+    <item
+        android:title="wishlist"
+        android:id="@+id/wishlist"/>
+    <item
+        android:title="returns"
+        android:id="@+id/return_product"/>
+</menu>
+    </item>
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/option2"
+                android:icon="@drawable/cart"
+                android:title="Like me"/>
+            <item
+                android:id="@+id/option3"
+                android:icon="@drawable/serach_button"
+                android:title="github"/>
+            <item
+                android:id="@+id/option4"
+                android:icon="@drawable/cloud"
+                android:title="Email us"/>
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/phone_white"
+                android:title="About Developer"/>
+        </menu>
+    </item>
+</group>
+
+</menu>
